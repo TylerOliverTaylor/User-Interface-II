@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body{
+    background-color: cadetblue;
+    margin: 10px;
+    border: 20px dotted red;
+}
+div.container{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 52px;
+    padding: 20px;
+}
+.container{ 
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    padding: 20px; 
+}
+.item{
+    border: 2px solid black;
+    padding: 10px;
+    background: lightgrey;    
+}
+
+.item:hover{
+    background:darkgrey;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.intro{
+    text-align: center;
+    padding: 10px;
+}
+.intro p{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+.mainphoto{
+    display:flex;
+    padding: 20px;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+.smallphotos{
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.pictures{
+    padding:20px;
+    align-content:center;
+}
+.text p{
+    color:black;
+    font-style: italic;
+    font-size: 24px;
+}
+.footer{
+    display: flex;
+    background: rgb(119, 139, 128);
+    padding: 50px;
+    justify-content: center;
+}
+.contact{
+    border: 5px solid black;
+    padding: 20px;
+    background: rgb(109, 147, 179);
+    border-radius: 20px;
+}
+.contact:hover{
+    background: khaki;
+    color: blue;
+}
